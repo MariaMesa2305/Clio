@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clio Cat</title>
+    <link rel="icon" type="image/png" href="../assets/harry.png"/>
+    <style>
+        .pinkNavegador{
+    overflow: hidden;
+    background-color: white;
+}
+.pinkNavegador a{
+    float:left;
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+}
+.pinkNavegador a:hover {
+    background-color: black;
+    color: mistyrose;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+
+}
+#grey{
+    color: grey;
+    font-size: 80px;
+}
+#black{
+    color: black;
+}
+.hometext{
+    color: black;
+    font-family: 20px;
+}
+.logo{
+    position:absolute;
+    top:10px;
+    right:10px;
+    width:50px;
+    height: auto;
+}
+.cat-animation{
+    position:absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 800px;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    animation: catCatcatCat 4s infinite;
+}
+@keyframes catCatcatCat {
+    0% {background-image: url('../assets/harry.png');}
+    25% {background-image: url('../assets/merlin.png');}
+    50% {background-image: url('../assets/mochi.png');}
+    75% {background-image: url('../assets/mojito.png');}
+    100% {background-image: url('../assets/harry.png');}
+}
+footer{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    position: absolute;
+    top:75%;
+    left:5%;
+}
+
+    </style>
+</head>
+<body>
+    <div class="pinkNavegador">
+        <a href="index.html">Home</a>
+        <a href="thecatnews.html">The Cat News</a>
+        <a href="donate.html">Donate</a>
+        <a href="about.html">About</a>
+    </div>
+    <div>
+        <img src="../assets/mochi.png" alt="clio logo :3" class="logo">
+    </div>
+    <header class="header">
+        <h1 id="grey">Bienvenido a <br> <strong id="black">=Clio=.</strong></h1>
+        <p class="hometext">Una pagina web donde puedes tener una introduccion de como cuidar a tu gato,<br>
+             ayudar a causas, informarte o simplemente ver una compilación de arte y<br> videos sobre los <em>pequeños felinos.</em></p>
+        
+    </header>
+    <section>
+        <p>Clio en la mitologia griega es la musa de la Historia, aqui,<br> es un acronimo de <em>"Cat Lovers Innovation and Omniscient".</em></p>
+    </section>
+    
+  <div class="cat-animation"></div>
+  <footer>
+    <p> Hecho por: Maria Mesa, dedicado a todos los gatos del mundo 😼.</p>
+  </footer>
+</body>
+</html> 
